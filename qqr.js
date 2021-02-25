@@ -1045,7 +1045,6 @@ var _qr_instance
       // Determine the *pixel* size.
       var px = size;
       px /= width;
-      px  = Math.floor(px);
 
       // Draw the QR code.
       c2d.clearRect(0, 0, size, size);
